@@ -51,10 +51,11 @@
             <label for="input-file">2.1.1 Faça o upload do plano de ação.</label><br>
             <input type="file" name="" id="input-file" disabled>
 
+            <!-- TODO - essa seção 3 pode ser deletada -->
             <!-- Seção 3: Contexto Organizacional -->
 
             <h2>3. Contexto Organizacional</h2>
-            <p>Para alcançar os resultados pretendidos pela iniciativa de adequação à LGPD, a organização deve avaliar questões internas e externas que são relevantes para atingir os objetivos.</p>
+            <!--<p>Para alcançar os resultados pretendidos pela iniciativa de adequação à LGPD, a organização deve avaliar questões internas e externas que são relevantes para atingir os objetivos.</p>-->
 
             <!-- Pergunta 3.1: Identificação de Normativos Correlatos -->
             <label for="normativos-correlatos">3.1 A organização conduziu iniciativa para identificar outros normativos (e.g.: leis, regulamentos e instruções normativas), além da LGPD, que abrangem comandos relacionados à proteção de dados pessoais e que também devem ser respeitados?</label><br>
@@ -67,8 +68,6 @@
             <label for="categorias-titulares">3.2 A organização identificou as categorias de titulares de dados pessoais com os quais se relaciona?</label><br>
             <input type="radio" id="categorias-titulares-1" name="categorias-titulares" value="Sim">
             <label for="categorias-titulares-1">Sim (todas as categorias de titulares de dados pessoais foram identificadas).</label><br>
-            <input type="radio" id="categorias-titulares-2" name="categorias-titulares" value="Parcialmente">
-            <label for="categorias-titulares-2">Parcialmente (algumas categorias de titulares de dados pessoais foram identificadas).</label><br>
             <input type="radio" id="categorias-titulares-3" name="categorias-titulares" value="Não">
             <label for="categorias-titulares-3">Não (ainda não foi conduzida iniciativa para identificar as categorias de titulares de dados pessoais).</label><br><br>
 
@@ -136,7 +135,7 @@
             <label for="avaliacao-riscos-processos-2">Não</label><br><br>
             
             <!-- Seção 4 -->
-            <h2>3. Contexto Organizacional</h2>
+            <h2>4. Contexto Organizacional</h2>
             <p>Para alcançar os resultados pretendidos pela iniciativa de adequação à LGPD, a organização deve avaliar questões internas e externas que são relevantes para atingir os objetivos.</p>
             <!-- Pergunta 4.1: Política de Segurança da Informação -->
             <label for="politica-seguranca-informacao">4.1 A organização possui Política de Segurança da Informação ou instrumento similar?</label><br>
@@ -156,24 +155,10 @@
             <input type="radio" id="politica-classificacao-informacao-2" name="politica-classificacao-informacao" value="Não">
             <label for="politica-classificacao-informacao-2">Não</label><br><br>
 
-            <!-- Pergunta 4.2.1: Política de Classificação da Informação - Dados Pessoais -->
-            <label for="politica-classificacao-dados-pessoais">4.2.1 A Política de Classificação da Informação (ou instrumento similar) abrange diretrizes para a classificação de dados pessoais?</label><br>
-            <input type="radio" id="politica-classificacao-dados-pessoais-1" name="politica-classificacao-dados-pessoais" value="Sim">
-            <label for="politica-classificacao-dados-pessoais-1">Sim</label><br>
-            <input type="radio" id="politica-classificacao-dados-pessoais-2" name="politica-classificacao-dados-pessoais" value="Não">
-            <label for="politica-classificacao-dados-pessoais-2">Não</label><br><br>
+            <!-- CORTAR COMEÇO - LUCAS -->
+            <!-- CORTAR FIM - LUCAS -->
 
-            <!-- Pergunta 4.2.1.1: Política de Classificação da Informação - Dados Sensíveis e de Crianças/Adolescentes -->
-            <label for="politica-classificacao-dados-sensiveis">4.2.1.1 A Política de Classificação da Informação (ou instrumento similar) abrange diretrizes para identificar dados pessoais sensíveis e relacionados a crianças e adolescentes?</label><br>
-            <input type="radio" id="politica-classificacao-dados-sensiveis-1" name="politica-classificacao-dados-sensiveis" value="Sim">
-            <label for="politica-classificacao-dados-sensiveis-1">Sim</label><br>
-            <input type="radio" id="politica-classificacao-dados-sensiveis-2" name="politica-classificacao-dados-sensiveis" value="Não">
-            <label for="politica-classificacao-dados-sensiveis-2">Não</label><br><br>
-
-            <!-- Pergunta 4.2.1.2: Anexo da Política de Classificação da Informação -->
-            <label for="anexo-politica-classificacao-informacao">4.2.2 Anexe a Política de Classificação da Informação (ou instrumento similar) da organização:</label><br>
-            <input type="file" id="anexo-politica-classificacao-informacao" name="anexo-politica-classificacao-informacao" disabled><br><br>
-
+            
             <!-- Pergunta 4.3: Política de Proteção de Dados Pessoais -->
             <label for="politica-protecao-dados-pessoais">4.3 A organização possui Política de Proteção de Dados Pessoais (ou instrumento similar)?</label><br>
             <input type="radio" id="politica-protecao-dados-pessoais-1" name="politica-protecao-dados-pessoais" value="Sim">
@@ -181,68 +166,15 @@
             <input type="radio" id="politica-protecao-dados-pessoais-2" name="politica-protecao-dados-pessoais" value="Não">
             <label for="politica-protecao-dados-pessoais-2">Não</label><br><br>
 
-            <!-- Pergunta 4.3.1: Anexo da Política de Proteção de Dados Pessoais -->
-            <label for="anexo-politica-protecao-dados-pessoais">4.3.1 Anexe a Política de Proteção de Dados Pessoais (ou documento similar) da organização:</label><br>
-            <input type="file" id="anexo-politica-protecao-dados-pessoais" name="anexo-politica-protecao-dados-pessoais" disabled><br><br>
 
-            <!-- Pergunta 4.4: Nomeação do Encarregado -->
-            <label for="nomeacao-encarregado">4.4 A organização nomeou o encarregado pelo tratamento de dados pessoais?</label><br>
-            <input type="radio" id="nomeacao-encarregado-1" name="nomeacao-encarregado" value="Sim">
-            <label for="nomeacao-encarregado-1">Sim</label><br>
-            <input type="radio" id="nomeacao-encarregado-2" name="nomeacao-encarregado" value="Não">
-            <label for="nomeacao-encarregado-2">Não</label><br><br>
 
-            <!-- Pergunta 4.4.1: Nomeação do Encarregado - Publicação -->
-            <label for="nomeacao-encarregado-publicacao">4.4.1 A nomeação do encarregado foi publicada em veículo de comunicação oficial?</label><br>
-            <input type="radio" id="nomeacao-encarregado-publicacao-1" name="nomeacao-encarregado-publicacao" value="Sim">
-            <label for="nomeacao-encarregado-publicacao-1">Sim</label><br>
-            <input type="radio" id="nomeacao-encarregado-publicacao-2" name="nomeacao-encarregado-publicacao" value="Não">
-            <label for="nomeacao-encarregado-publicacao-2">Não</label>
+            <!-- CORTAR COMEÇO - LUCAS -->
+            <!-- CORTAR FIM - LUCAS -->
             
             <!-- Seção 5 -->
             <h2>5. Conformidade</h2>
-            <!-- Pergunta 5.1: Identificação e Documentação das Finalidades -->
-            <label for="identificacao-documentacao-finalidades">5.1 A organização identificou e documentou as finalidades das atividades de tratamento de dados pessoais?</label><br>
-            <input type="radio" id="identificacao-documentacao-finalidades-1" name="identificacao-documentacao-finalidades" value="Sim">
-            <label for="identificacao-documentacao-finalidades-1">Sim (todas as finalidades das atividades de tratamento de dados pessoais foram identificadas e documentadas)</label><br>
-            <input type="radio" id="identificacao-documentacao-finalidades-2" name="identificacao-documentacao-finalidades" value="Parcialmente">
-            <label for="identificacao-documentacao-finalidades-2">Parcialmente (algumas finalidades das atividades de tratamento de dados pessoais foram identificadas e documentadas)</label><br>
-            <input type="radio" id="identificacao-documentacao-finalidades-3" name="identificacao-documentacao-finalidades" value="Não">
-            <label for="identificacao-documentacao-finalidades-3">Não (as finalidades das atividades de tratamento de dados pessoais ainda não foram identificadas e documentadas)</label><br><br>
-
-            <!-- Pergunta 5.1.1: Coleta Apenas Dados Necessários -->
-            <label for="coleta-apenas-dados-necessarios">5.1.1 A organização avaliou se coleta apenas os dados estritamente necessários para cumprir com as finalidades de tratamento de dados pessoais que foram identificadas?</label><br>
-            <input type="radio" id="coleta-apenas-dados-necessarios-1" name="coleta-apenas-dados-necessarios" value="Sim">
-            <label for="coleta-apenas-dados-necessarios-1">Sim</label><br>
-            <input type="radio" id="coleta-apenas-dados-necessarios-2" name="coleta-apenas-dados-necessarios" value="Não">
-            <label for="coleta-apenas-dados-necessarios-2">Não</label><br><br>
-
-            <!-- Pergunta 5.1.2: Retenção Estritamente Necessária -->
-            <label for="retencao-estritamente-necessaria">5.1.2 A organização avaliou se os dados pessoais são retidos (armazenados) durante o tempo estritamente necessário para cumprir com as finalidades de tratamento de dados pessoais que foram identificadas?</label><br>
-            <input type="radio" id="retencao-estritamente-necessaria-1" name="retencao-estritamente-necessaria" value="Sim">
-            <label for="retencao-estritamente-necessaria-1">Sim</label><br>
-            <input type="radio" id="retencao-estritamente-necessaria-2" name="retencao-estritamente-necessaria" value="Não">
-            <label for="retencao-estritamente-necessaria-2">Não</label><br><br>
-
-            <!-- Pergunta 5.2: Identificação e Documentação das Bases Legais -->
-            <label for="identificacao-documentacao-bases-legais">5.2 A organização identificou e documentou as bases legais que fundamentam as atividades de tratamento de dados pessoais?</label><br>
-            <input type="radio" id="identificacao-documentacao-bases-legais-1" name="identificacao-documentacao-bases-legais" value="Sim">
-            <label for="identificacao-documentacao-bases-legais-1">Sim (as bases legais que fundamentam todas as atividades de tratamento de dados pessoais da organização foram definidas e documentadas)</label><br>
-            <input type="radio" id="identificacao-documentacao-bases-legais-2" name="identificacao-documentacao-bases-legais" value="Parcialmente">
-            <label for="identificacao-documentacao-bases-legais-2">Parcialmente (as bases legais que fundamentam algumas das atividades de tratamento de dados pessoais da organização foram definidas e documentadas)</label><br>
-            <input type="radio" id="identificacao-documentacao-bases-legais-3" name="identificacao-documentacao-bases-legais" value="Não">
-            <label for="identificacao-documentacao-bases-legais-3">Não (nenhuma base legal que fundamenta as atividades de tratamento de dados pessoais da organização foi definida e documentada)</label><br><br>
-
-            <!-- Pergunta 5.3: Registro das Atividades de Tratamento -->
-            <label for="registro-atividades-tratamento">5.3 Há um registro (e.g.: inventário) instituído para consolidar informações relacionadas às características das atividades de tratamento de dados pessoais?</label><br>
-            <input type="radio" id="registro-atividades-tratamento-1" name="registro-atividades-tratamento" value="Sim">
-            <label for="registro-atividades-tratamento-1">Sim</label><br>
-            <input type="radio" id="registro-atividades-tratamento-2" name="registro-atividades-tratamento" value="Não">
-            <label for="registro-atividades-tratamento-2">Não</label><br><br>
-
-            <!-- Pergunta 5.3.1: Anexo do Registro das Atividades de Tratamento -->
-            <label for="anexo-registro-atividades-tratamento">5.3.1 Anexe o arquivo que representa o registro das atividades de tratamento de dados pessoais (e.g.: inventário):</label><br><br>
-            <input type="file" id="anexo-registro-atividades-tratamento" name="anexo-registro-atividades-tratamento" disabled><br><br>
+            <!-- CORTAR COMEÇO - LUCAS -->
+            <!-- CORTAR FIM - LUCAS -->
 
             <!-- Pergunta 5.4: Relatório de Impacto à Proteção de Dados Pessoais -->
             <label for="relatorio-impacto-protecao-dados-pessoais">5.4 A organização elaborou Relatório de Impacto à Proteção de Dados Pessoais?</label><br>
@@ -255,14 +187,9 @@
             <input type="radio" id="relatorio-impacto-protecao-dados-pessoais-4" name="relatorio-impacto-protecao-dados-pessoais" value="Não se aplica">
             <label for="relatorio-impacto-protecao-dados-pessoais-4">Não se aplica (a organização não executa processo de tratamento de dados pessoais que pode gerar riscos às liberdades civis e aos direitos fundamentais dos titulares)</label><br><br>
 
-            <!-- Pergunta 5.4.1: Implementação de Controles -->
-            <label for="implementacao-controles">5.4.1 A organização implementou controles para mitigar os riscos identificados por meio da elaboração do Relatório de Impacto de Proteção de Dados Pessoais?</label><br>
-            <input type="radio" id="implementacao-controles-1" name="implementacao-controles" value="Sim (todos os riscos)">
-            <label for="implementacao-controles-1">Sim (a organização implementou controles para mitigar todos os riscos identificados por meio da elaboração do Relatório de Impacto de Proteção de Dados Pessoais)</label><br>
-            <input type="radio" id="implementacao-controles-2" name="implementacao-controles" value="Parcialmente">
-            <label for="implementacao-controles-2">Parcialmente (a organização implementou controles para mitigar alguns riscos identificados por meio da elaboração do Relatório de Impacto de Proteção de Dados Pessoais)</label><br>
-            <input type="radio" id="implementacao-controles-3" name="implementacao-controles" value="Não">
-            <label for="implementacao-controles-3">Não (a organização não implementou controles para mitigar os riscos identificados por meio da elaboração do Relatório de Impacto de Proteção de Dados Pessoais)</label><br><br>
+            <!-- CORTAR COMEÇO - LUCAS -->
+            <!-- CORTAR FIM - LUCAS -->
+            
 
             <!-- Seção 6 -->
             <h2>6. Direitos do titular</h2>
@@ -279,14 +206,6 @@
             <label for="politica-privacidade-internet-1">Sim</label><br>
             <input type="radio" id="politica-privacidade-internet-2" name="politica-privacidade-internet" value="Não">
             <label for="politica-privacidade-internet-2">Não</label><br><br>
-
-            <!-- Pergunta 6.1.1.1: URL da Política de Privacidade -->
-            <label for="url-politica-privacidade">6.1.1.1 Favor informar o endereço da internet (URL) onde a política está publicada:</label><br>
-            <input type="text" id="url-politica-privacidade" name="url-politica-privacidade"><br><br>
-
-            <!-- Pergunta 6.1.2: Anexo da Política de Privacidade -->
-            <label for="anexo-politica-privacidade">6.1.2 Anexe a Política de Privacidade (ou instrumento similar) da organização:</label><br>
-            <input type="file" id="anexo-politica-privacidade" name="anexo-politica-privacidade" disabled><br><br>
 
             <!-- Pergunta 6.2: Implementação de Mecanismos para Atender Direitos do Titular -->
             <label for="implementacao-mecanismos-direitos-titular">6.2 Foram implementados mecanismos para atender os direitos dos titulares elencados no art. 18 da LGPD e aplicáveis à organização?</label><br>
@@ -398,8 +317,6 @@
             <label for="processo-registro-usuarios">9.2 A organização implementou processo para registro, cancelamento e provisionamento de usuários em sistemas que realizam tratamento de dados pessoais?</label><br>
             <input type="radio" id="processo-registro-usuarios-1" name="processo-registro-usuarios" value="Sim">
             <label for="processo-registro-usuarios-1">Sim</label><br>
-            <input type="radio" id="processo-registro-usuarios-2" name="processo-registro-usuarios" value="Parcialmente">
-            <label for="processo-registro-usuarios-2">Parcialmente</label><br>
             <input type="radio" id="processo-registro-usuarios-3" name="processo-registro-usuarios" value="Não">
             <label for="processo-registro-usuarios-3">Não</label><br><br>
 
@@ -407,8 +324,6 @@
             <label for="registro-eventos-atividades">9.3 A organização registra eventos das atividades de tratamento de dados pessoais?</label><br>
             <input type="radio" id="registro-eventos-atividades-1" name="registro-eventos-atividades" value="Sim">
             <label for="registro-eventos-atividades-1">Sim</label><br>
-            <input type="radio" id="registro-eventos-atividades-2" name="registro-eventos-atividades" value="Parcialmente">
-            <label for="registro-eventos-atividades-2">Parcialmente</label><br>
             <input type="radio" id="registro-eventos-atividades-3" name="registro-eventos-atividades" value="Não">
             <label for="registro-eventos-atividades-3">Não</label><br><br>
 
@@ -416,8 +331,7 @@
             <label for="uso-criptografia">9.4 A organização utiliza criptografia para proteger os dados pessoais?</label><br>
             <input type="radio" id="uso-criptografia-1" name="uso-criptografia" value="Sim">
             <label for="uso-criptografia-1">Sim</label><br>
-            <input type="radio" id="uso-criptografia-2" name="uso-criptografia" value="Parcialmente">
-            <label for="uso-criptografia-2">Parcialmente</label><br>
+            
             <input type="radio" id="uso-criptografia-3" name="uso-criptografia" value="Não">
             <label for="uso-criptografia-3">Não</label><br><br>
 

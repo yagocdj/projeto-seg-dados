@@ -7,15 +7,51 @@
 </head>
 <body>
     <main>
+        <h1>Geração de documentos</h1>
         <section>
-            <h1>Documentos a serem gerados</h1>
-            <p>De maneira resumida, estes são os documentos a serem gerados</p>
-            <ul>
-                <li>Diretrizes antivírus</li>
-                <li>Política de Plano de Recuperação de Desastres</li>
-                <li>Política de Proteção de Senhas</li>
-                <li>Política de Equipamentos de Comunicação</li>
-            </ul>
+            <header>
+                <h2>Documentos a serem gerados</h2>
+                <p>De maneira resumida, estes são os documentos a serem gerados</p>
+            </header>
+
+            <fieldset>
+                <legend>Documentos a ser gerados:</legend>
+                <label>Política para Redes Virtuais Privadas (VPNs)</label>
+                <input type="checkbox" id="p_rvp">
+
+                <label>Política para Instalação de softwares</label>
+                <input type="checkbox" id="p_iso">
+
+                <label>Política de Uso Aceitável</label>
+                <input type="checkbox" id="p_uac">
+
+                <label>Política de Recuperação de Desastres</label>
+                <input type="checkbox" id="p_red">
+
+                <label>Política de Proteção de Senhas</label>
+                <input type="checkbox" id="p_prs">
+
+                <label>Política de Proteção Contra Malwares</label>
+                <input type="checkbox" id="p_prm">
+
+                <label>Política de Equipamentos de Comunicação</label>
+                <input type="checkbox" id="p_eqc">
+
+                <label>Política de Encriptação Aceitável</label>
+                <input type="checkbox" id="p_ena">
+
+                <label>Política de Criptografia de Dispositivo Móvel</label>
+                <input type="checkbox" id="p_cdm">
+
+                <label>Política de Conscientização sobre Engenharia Social</label>
+                <input type="checkbox" id="p_ces">
+
+                <label>Política de Avaliação De Riscos</label>
+                <input type="checkbox" id="p_avr">
+
+                <label>Diretrizes Antivírus</label>
+                <input type="checkbox" id="d_ant">
+            </fieldset>
         </section>
         <button>Confirmar</button>
         <a href="/index.html">Voltar</a>
